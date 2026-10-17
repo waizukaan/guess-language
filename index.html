@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dil Tahmin</title>
+  <meta name="description" content="Uzun cümlelerden dil tanıma alıştırması">
+  <meta name="theme-color" content="#16181d">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Grup seçimi -->
+  <main id="screen-groups" class="screen">
+    <header class="hero">
+      <div class="brand"><span class="lamp"></span>Dil Tahmin</div>
+      <h1>Ne duyuyorsun?</h1>
+      <p class="lead">Bir grup seç. O gruptaki dillerden birinde okunmuş bir cümle çalacak; hangi dil olduğunu bul.</p>
+      <div class="settings">
+        <span class="settings-label">Şık sayısı</span>
+        <div class="seg" id="opt-count">
+          <button data-n="4">4</button>
+          <button data-n="6">6</button>
+        </div>
+      </div>
+    </header>
+
+    <p id="notice" class="notice" hidden></p>
+    <ul id="group-list" class="group-list"></ul>
+
+    <footer class="credits">
+      Ses kayıtları: Google FLEURS (CC BY 4.0) ve Mozilla Common Voice (CC0).
+    </footer>
+  </main>
+
+  <!-- Oyun -->
+  <main id="screen-game" class="screen" hidden>
+    <header class="topbar">
+      <button id="btn-back" class="ghost" aria-label="Gruplara dön">← Gruplar</button>
+      <span id="group-title" class="group-title"></span>
+      <span class="scorebox"><span id="score">0 / 0</span><span id="streak" class="streak"></span></span>
+    </header>
+
+    <section class="stage">
+      <button id="btn-play" class="play" aria-label="Çal / durdur">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="ring-bg" cx="60" cy="60" r="54"/>
+          <circle id="ring" class="ring" cx="60" cy="60" r="54"/>
+        </svg>
+        <span id="play-icon" class="play-icon">▶</span>
+      </button>
+      <p id="status" class="status">Hazır</p>
+
+      <div id="options" class="options"></div>
+
+      <div id="reveal" class="reveal" hidden>
+        <p id="reveal-text" class="reveal-text"></p>
+        <p id="reveal-src" class="reveal-src"></p>
+      </div>
+
+      <div class="controls">
+        <button id="btn-other" class="secondary">Başka kayıt</button>
+        <button id="btn-next" class="primary" disabled>Sonraki</button>
+      </div>
+      <p class="keys">Kısayollar: 1–6 şıklar · boşluk çal/durdur · R başka kayıt · Enter sonraki</p>
+    </section>
+
+    <section id="mistakes" class="mistakes" hidden>
+      <h2>Karıştırdıkların</h2>
+      <ul id="mistake-list"></ul>
+    </section>
+
+    <p id="missing" class="missing"></p>
+  </main>
+
+  <audio id="player" preload="auto" playsinline></audio>
+  <script src="app.js"></script>
+</body>
+</html>

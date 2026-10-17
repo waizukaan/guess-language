@@ -1,0 +1,92 @@
+ÖZET
+====
+   Türkçe                40 klip  
+   İngilizce             25 klip  
+   Fransızca             25 klip  
+   İspanyolca            25 klip  
+   Arapça                25 klip  
+   Rusça                 25 klip  
+   Çince (Mandarin)      25 klip  
+   Çekçe                 25 klip  
+   Danca                 25 klip  
+   Felemenkçe            25 klip  
+   Almanca               25 klip  
+   Yunanca               25 klip  
+   Hintçe                25 klip  
+   Macarca               25 klip  
+   Endonezce             25 klip  
+   İtalyanca             25 klip  
+   Japonca               25 klip  
+   Korece                25 klip  
+   Malayca               40 klip  
+   Norveççe              25 klip  
+   Farsça                25 klip  
+   Lehçe                 25 klip  
+   Portekizce            25 klip  
+   Romence               25 klip  
+   İsveççe               25 klip  
+   Tayca                 25 klip  
+   Urduca                25 klip  
+   Vietnamca             25 klip  
+   Arnavutça             40 klip  
+   Amharca               25 klip  fleurs
+   Ermenice              25 klip  fleurs
+   Assamca               25 klip  fleurs
+   Azerice               25 klip  fleurs
+   Baskça                25 klip  cv
+   Belarusça             25 klip  fleurs
+   Bengalce              25 klip  fleurs
+   Boşnakça              25 klip  fleurs
+   Bulgarca              25 klip  fleurs
+   Birmanca              25 klip  fleurs
+   Katalanca             25 klip  fleurs
+   Hırvatça              25 klip  fleurs
+   Estonca               25 klip  fleurs
+   Filipince             25 klip  fleurs
+   Fince                 25 klip  fleurs
+   Gürcüce               25 klip  fleurs
+   Guarani               25 klip  cv
+   İbranice              25 klip  fleurs
+   İzlandaca             25 klip  fleurs
+   İrlandaca             25 klip  fleurs
+   Kazakça               25 klip  fleurs
+   Kmerce                25 klip  fleurs
+   Kinyarwanda           25 klip  cv
+   Kürtçe                25 klip  fleurs
+   Kırgızca              25 klip  fleurs
+   Laoca                 25 klip  fleurs
+   Letonca               25 klip  fleurs
+   Litvanca              25 klip  fleurs
+   Lüksemburgca          25 klip  fleurs
+   Makedonca             25 klip  fleurs
+   Malayalam             25 klip  fleurs
+   Maltaca               25 klip  fleurs
+   Maorice               25 klip  fleurs
+   Marathi               25 klip  fleurs
+   Moğolca               25 klip  fleurs
+   Nepalce               25 klip  fleurs
+   Oromo                 25 klip  fleurs
+   Peştuca               25 klip  fleurs
+   Pencapça              25 klip  fleurs
+!! Keçuva                 1 klip  cv
+   Romanşça              25 klip  cv
+   Sırpça                25 klip  fleurs
+   Slovakça              25 klip  fleurs
+   Slovence              25 klip  fleurs
+   Somalice              25 klip  fleurs
+   Svahili               25 klip  fleurs
+   Tacikçe               25 klip  fleurs
+   Tamilce               25 klip  fleurs
+   Telugu                25 klip  fleurs
+!! Tigrinya               5 klip  cv
+   Türkmence             25 klip  cv
+   Ukraynaca             25 klip  fleurs
+   Özbekçe               25 klip  fleurs
+   Galce                 25 klip  fleurs
+   Wolof                 25 klip  fleurs
+   Xhosa                 25 klip  fleurs
+   Yoruba                25 klip  fleurs
+   Zulu                  25 klip  fleurs
+
+Oyunda kullanılabilir dil sayısı: 85
+Klip klasörü boyutu: 97 MB
